@@ -1,6 +1,6 @@
 {
   "name": "dope-graphql-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dope GraphQL Server",
   "main": "dist/index.js",
   "scripts": {
@@ -12,12 +12,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "apollo-server": "^0.2.5",
     "babel-runtime": "^6.11.6",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "graphql": "^0.6.2",
+    "graphql": "^0.9.1",
+    "graphql-server-express": "^0.6.0",
     "graphql-tools": "^0.6.4",
+    "iterall": "^1.0.3",
     "lodash": "^4.15.0",
     "request": "^2.74.0",
     "request-promise": "^4.1.1"
@@ -56,6 +57,11 @@
   "keywords": [
     "GraphQL"
   ],
-  "author": "Abhi Aiyer",
-  "license": "ISC"
+  "author": "Bernardo Kuri",
+  "license": "ISC",
+  "homepage": "http://bkuri.com",
+  "repository": "http://bkuri.com",
+  "bugs": "bugs@bkuri.com",
+  "contributors": [],
+  "engines": {}
 }
